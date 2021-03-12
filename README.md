@@ -6,6 +6,8 @@ Implémentation de 2 algorithmes :
 
 A. Regex Search :
 
+	A lire : http://infolab.stanford.edu/~ullman/focs/ch10.pdf
+	
 	1) La recherche est faites en 5 étapes distictes :
 		a. Parser le regex pour obtenir un AST
 		b. Transformer l'AST en automate à état final avec des epsilon-transitions
@@ -23,4 +25,4 @@ A. Regex Search :
 
 
 B. KMP :
-	https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
+	A lire : https://en.wikipedia.org/wiki/Knuth%E2%80%93Morris%E2%80%93Pratt_algorithm
